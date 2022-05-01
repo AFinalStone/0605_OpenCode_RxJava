@@ -13,9 +13,20 @@
         android:text="RXJava测试" />
 
     <Button
-        android:id="@+id/btn_skip"
+        android:id="@+id/btn_create_observable_on_subscribe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="自己创建被观察者" />
 
+    <Button
+        android:id="@+id/btn_just"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="just方法" />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="map方法" />
 </LinearLayout>

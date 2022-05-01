@@ -10,21 +10,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="RXJava测试"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:text="RXJava测试" />
 
     <Button
-        android:id="@+id/btn_observable"
+        android:id="@+id/btn_create_observable_on_subscribe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Observable测试" />
+        android:text="自己创建被观察者" />
 
     <Button
-        android:id="@+id/btn_flowable"
+        android:id="@+id/btn_just"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Flowable测试" />
+        android:text="just方法" />
 
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="map方法" />
+
+    <Button
+        android:id="@+id/btn_delay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delay方法" />
 </LinearLayout>
